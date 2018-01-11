@@ -2,3 +2,7 @@ title: Ben Napier
 email: ben@napier.xyz
 description: Researcher
 theme: jekyll-theme-minimal
+permalink: pretty
+markdown: kramdown
+kramdown:
+  input: GFM
