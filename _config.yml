@@ -1,11 +1,4 @@
 title: Ben Napier
 email: ben@napier.xyz
 description: Researcher
-baseurl: ""
-url: "http://ben.napier.xyz"
-github_username: benapier
-
-markdown: kramdown
 theme: jekyll-theme-minimal
-plugins:
-  - jekyll-feed
