@@ -3,6 +3,7 @@ email: ben@napier.xyz
 description: Researcher
 theme: jekyll-theme-minimal
 permalink: pretty
-markdown: kramdown
-kramdown:
-  input: GFM
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/

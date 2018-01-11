@@ -1,11 +1,11 @@
 ---
 layout: default
-title: C++ Matrix Library
+title: C++ Matrix Library - cmatrix
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
-[Github](https://github.com/benapier/cmatrix)
+[GitHub](https://github.com/benapier/cmatrix)
 
 A simple matrix library in C++ which takes advantage of operator overloading so that matrices can be treated like any other common data types (double, integer, etc.).
 
@@ -21,7 +21,7 @@ Planned features:
 * Kronecker multiplication
 * Hadanard multiplication
 
-## Example
+### Example
 
 Find values for *x*, *y*, and *z* that satisfy:
 
