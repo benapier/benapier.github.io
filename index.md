@@ -11,6 +11,7 @@ in a wide range of topics.
 
 {% for page in site.pages %}
 [{{ page.title }}]({{ page.url }})
+Dog
 {% endfor %}
 
 ### Posts
