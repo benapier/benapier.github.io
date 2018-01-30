@@ -25,7 +25,13 @@ Planned features:
 
 Find values for *x*, *y*, and *z* that satisfy:
 
-<img src="/../assets/cmatrix_problem.svg" width="150" />
+$$
+\begin{array}{rcrcrcl}
+3x & + & 4y & + & 2z & = & 3 \\
+x & - & 2y & + & 2z & = & 6 \\
+-x & + & 3y & - & 2z & = & 11 \\
+\end{array}
+$$
 
 ```c++
 // Entering in the values in a matrix

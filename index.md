@@ -12,3 +12,9 @@ in a wide range of topics.
 {% for page in site.projects %}
 [{{ page.title }}]({{ page.url }})
 {% endfor %}
+
+## Resources:
+
+{% for page in site.resources %}
+[{{ page.title}}]({{ page.url }})
+{% endfor %}
