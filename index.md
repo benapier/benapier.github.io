@@ -4,7 +4,7 @@ layout: default
 
 ## Bio
 
-Currently studying MSci Mathematics and Computer Science at Durham Universiy under the Millman Scholarship with the Materials Processing Institute.
+Student currently studying MSci Mathematics and Computer Science at Durham Universiy under the Millman Scholarship with the Materials Processing Institute.
 
 ## Current projects:
 
