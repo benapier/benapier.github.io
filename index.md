@@ -18,6 +18,8 @@ Student currently studying MSci Mathematics and Computer Science at Durham Unive
 [{{ page.title }}]({{ page.url }})
 {% endfor %}
 
+## Pages:
+
 {% for page in site.pages $}
 [{{ page.title }}]({{ page.url }})
 {% endfor %}
