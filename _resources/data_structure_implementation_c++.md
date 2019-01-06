@@ -29,6 +29,12 @@ For node $$N$$ we may use the following notation:
 
 <script src="https://gist.github.com/benapier/590b5b808907cb8a4d2265562b197dfc.js"></script>
 
+## Circularly linked list
+
+**Circularly linked lists** are also an extension of singly linked lists. Nodes are defined the same as in singly linked list, that is, each node has a next pointer and a previous pointer and the data it is holding; however, there is no beginning or end, such that where normally the last element in a singly linked list would point to `NULL`, instead, it points to the first node in the list. As there is no beginning or end, we mark a node on the list as the **cursor** which is the starting node when we traverse the list.
+
+<script src="https://gist.github.com/benapier/aa200b937771991f147c9f183f3c6783.js"></script>
+
 ## Stack
 
 ## Queue
