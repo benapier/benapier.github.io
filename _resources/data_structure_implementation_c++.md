@@ -9,7 +9,7 @@ Each data structure shown will have a gist on GitHub.
 
 ## Singly linked list
 
-A **linked list** is made up of **nodes** Each node stores an **element** and a **pointer** to another node. The first node is called the **head** and the last node is called the \textbf{tail} which has a null pointer. This data structure can be scattered over memory; it does not have to be stored consecutively.
+A **linked list** is made up of **nodes** Each node stores an **element** and a **pointer** to another node. The first node is called the **head** and the last node is called the **tail** which has a null pointer. This data structure can be scattered over memory; it does not have to be stored consecutively.
 
 For linked list $L$, we may use the following notation:
 * `L.head` the pointer for the head of the list and
