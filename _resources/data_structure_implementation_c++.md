@@ -21,6 +21,14 @@ For node $$N$$ we may use the following notation:
 
 <script src="https://gist.github.com/benapier/0e7d1cebe2801d387609e20ec594646a.js"></script>
 
+## Doubly linked list
+
+**Doubly linked list** are an extension of what we have just defined (singly linked lists); a node in a **doubly** linked list stores two references:
+* a pointer to the next node in the list and
+* a pointer to the previous node in the list.
+
+<script src="https://gist.github.com/benapier/590b5b808907cb8a4d2265562b197dfc.js"></script>
+
 ## Stack
 
 ## Queue
