@@ -6,7 +6,7 @@ layout: default
 
 Student currently studying MSci Mathematics and Computer Science at Durham Universiy under the Millman Scholarship with the Materials Processing Institute.
 
-[Coding activity]{ https://ben.napier.xyz/pages/coding_activity/ }
+[Coding activity](https://ben.napier.xyz/pages/coding_activity/)
 
 ## Current projects:
 
