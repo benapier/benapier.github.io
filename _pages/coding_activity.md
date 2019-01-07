@@ -17,7 +17,7 @@ title: Coding activity
 </div>
 
 <script>
-    GitHubCalendar(".calendar", "your-username");
+    GitHubCalendar(".calendar", "benapier");
 </script>
 
 ## WakaTime
