@@ -37,4 +37,16 @@ For node $$N$$ we may use the following notation:
 
 ## Stack
 
+A **stack** is a collection of objects that are inserted and removed according to the **last-in-first-out** (LIFO) principle.
+    
+Objects can be inserted to the stack at any time, but only the most recently inserted objected can be removed at any time. Or more formally, a stack must have the methods
+ 
+* `push(e)`, insert element `e` at the top of the stack and
+* `pop()`, remove and return the top element of the stack.
+
+Other miscellaneous methods are
+* `size`, return the number of elements in the stack;
+* `IsEmpty`, return boolean values indicating whether or not the stack is empty (though this seems to be pointless giving that it is equivalent to `size == 0`; and
+* `top`, return the top element of the stack without removing it.
+
 ## Queue
