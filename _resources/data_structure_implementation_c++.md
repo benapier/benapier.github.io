@@ -49,4 +49,6 @@ Other miscellaneous methods are
 * `IsEmpty`, return boolean values indicating whether or not the stack is empty (though this seems to be pointless giving that it is equivalent to `size == 0`; and
 * `top`, return the top element of the stack without removing it.
 
+<script src="https://gist.github.com/benapier/b27ed3aec99538f2dfe2cb61dd53efb0.js"></script>
+
 ## Queue
