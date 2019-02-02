@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Simple data structure implementations in C++
+title: Linked list, stack, and queue implementations in C++
 ---
 
 # {{ page.title }}
