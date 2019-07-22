@@ -10,7 +10,8 @@ title: Failure investigations
 We offer an independent forensic investigation into the failure of metals.  Our target is to find the root cause of a failure to enable understanding and what can be done to prevent potential future occurrences. 
 
 ![Beautiful Ian](../ian.png)
-![](../IMG_20190722_114024.jpg
+
+![](../IMG_20190722_114024.jpg)
 
 ## Expertise 
 
