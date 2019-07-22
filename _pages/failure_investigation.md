@@ -9,6 +9,9 @@ title: Failure investigations
 
 We offer an independent forensic investigation into the failure of metals.  Our target is to find the root cause of a failure to enable understanding and what can be done to prevent potential future occurrences. 
 
+<img src = "../IMG_20190722_114024.jpg" width = 500px />
+<img src = "../ian.png" width = 500px />
+
 ## Expertise 
 
 With over 75 years working closely with the steel sector we have developed an extensive understanding of metallography and how to interpret findings and relate results to industrial processes.  Our [metallographic laboratories](https://www.mpiuk.com/laboratories-metallography.htm) enable to us go into as much depth as required for any metallic failure investigation.  
