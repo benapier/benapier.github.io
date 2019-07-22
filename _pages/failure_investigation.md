@@ -1,10 +1,8 @@
 ---
 layout: default
-title: Coding activity
+title: Failure investigation
 ---
 
 # {{ page.title }}
-
-# Failure investigation
 
 Look at me!
