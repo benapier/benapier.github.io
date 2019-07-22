@@ -17,7 +17,6 @@ With over 75 years working closely with the steel sector we have developed an ex
 
 | Task | Basic | Standard | Prime |
 | --- | --- | --- | --- |
-| | From £500 | From £2000 | From £5000 |
 | Certified quality assurance | ✓ | ✓ | ✓ |
 | Site visit and evaluation | | | ✓ ||
 | Visual and macroscopic investigation | ✓ | ✓ | ✓ ||
@@ -28,4 +27,6 @@ With over 75 years working closely with the steel sector we have developed an ex
 | Investigation analysis | | | ✓ ||
 | Comprehensive report | | | ✓ || 
 | Review with client | | | ✓ ||
+| | From £500 | From £2000 | From £5000 |
+
 Bespoke options available upon request.
