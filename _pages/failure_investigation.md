@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Failure investigation
+title: Failure investigations
 ---
 
 # {{ page.title }}
