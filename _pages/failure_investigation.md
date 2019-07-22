@@ -12,6 +12,18 @@ We offer an independent forensic investigation into the failure of metals.  Our 
 ## Expertise 
 
 With over 75 years working closely with the steel sector we have developed an extensive understanding of metallography and how to interpret findings and relate results to industrial processes.  Our metallographic laboratories enable to us go into as much depth as required for any metallic failure investigation.  
+F
+## Methodology :heavy_check_mark:
 
-## Methodology
-
+| Task | Basic | Standard | Prime |
+| --- | --- | --- | --- |
+| Certified quality assurance | \checkmark | \checkmark | \checkmark \\
+| Site visit and evaluation | $^|star$ | $^|star$ | :heavy_check_mark: ||
+| Visual and macroscopic investigation | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: ||
+| Microscopic investigation | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: ||
+| Electron microscopy | | :heavy_check_mark: | :heavy_check_mark: ||
+| Chemical analysis | | :heavy_check_mark: | :heavy_check_mark: ||
+| Optical emission spectroscopy | | :heavy_check_mark: | :heavy_check_mark: ||
+| Investigation analysis | | | :heavy_check_mark: ||
+| Comprehensive report | | | :heavy_check_mark: || 
+| Review with client | | | :heavy_check_mark: ||
