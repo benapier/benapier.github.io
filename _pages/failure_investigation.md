@@ -17,7 +17,7 @@ F
 
 | Task | Basic | Standard | Prime |
 | --- | --- | --- | --- |
-| Certified quality assurance | \checkmark | \checkmark | \checkmark \\
+| Certified quality assurance | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: \\
 | Site visit and evaluation | | | :heavy_check_mark: ||
 | Visual and macroscopic investigation | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: ||
 | Microscopic investigation | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: ||
