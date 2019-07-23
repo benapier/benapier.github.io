@@ -15,18 +15,17 @@ With over 75 years working closely with the steel sector we have developed an ex
 
 ## Methodology 
 
-| Task | Basic | Standard | Prime |
-| --- | --- | --- | --- |
-| Certified quality assurance | ✓ | ✓ | ✓ |
-| Site visit and evaluation | | | ✓ ||
-| Visual and macroscopic investigation | ✓ | ✓ | ✓ ||
-| Microscopic investigation | ✓ | ✓ | ✓ ||
-| Electron microscopy | | ✓ | ✓ ||
-| Chemical analysis | | ✓ | ✓ ||
-| Optical emission spectroscopy | | ✓ | ✓ ||
-| Investigation analysis | | | ✓ ||
-| Comprehensive report | | | ✓ || 
-| Review with client | | | ✓ ||
-| | From £500 | From £2000 | From £5000 |
+| Task | Basic | Standard | Prime 
+| --- | --- | --- | --- 
+| Certified quality assurance | ✓ | ✓ | ✓ 
+| Site visit and evaluation | | | ✓ |
+| Visual and macroscopic investigation | ✓ | ✓ | ✓ |
+| Microscopic investigation | ✓ | ✓ | ✓ |
+| Electron microscopy | | ✓ | ✓ |
+| Chemical analysis | | ✓ | ✓ |
+| Optical emission spectroscopy | | ✓ | ✓ |
+| Investigation analysis | | | ✓ |
+| Comprehensive report | | | ✓ |
+| Review with client | | | ✓ |
 
 Bespoke options available upon request.
