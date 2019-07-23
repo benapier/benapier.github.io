@@ -28,3 +28,7 @@ We offer three services for failure investigations, with bespoke options availab
 | Root cause analysis | | | ✓ |
 | Comprehensive report | | | ✓ |
 | Review with client | | | ✓ |
+
+## Holistic failure analysis
+
+The Institute can also offer a wider engineering failure investigation, which would include the above services and also analysis of the failure in context of the whole system to find long term solutions.
