@@ -25,7 +25,6 @@ We offer three services for failure investigation: basic, standard, and prime (w
 | Microscopic investigation | ✓ | ✓ | ✓ |
 | Electron microscopy | | ✓ | ✓ |
 | [Chemical analysis](https://www.mpiuk.com/laboratories-chemical-analysis.htm) | | ✓ | ✓ |
-| Optical emission spectroscopy | | ✓ | ✓ |
 | Root cause analysis | | | ✓ |
 | Comprehensive report | | | ✓ |
 | Review with client | | | ✓ |
