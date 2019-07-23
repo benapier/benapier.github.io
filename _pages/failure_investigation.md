@@ -15,7 +15,7 @@ With over 75 years working closely with the metals sector we have developed an e
 
 ## Methodology 
 
-We offer three services for failure investigation: basic, standard, and prime (with the metholodogy detailed below for each one). 
+We offer three services for failure investigations, with bespoke options available upon request.
 
 | Task | Basic | Standard | Prime 
 | --- | --- | --- | --- 
@@ -28,5 +28,3 @@ We offer three services for failure investigation: basic, standard, and prime (w
 | Root cause analysis | | | ✓ |
 | Comprehensive report | | | ✓ |
 | Review with client | | | ✓ |
-
-Bespoke options available upon request.
