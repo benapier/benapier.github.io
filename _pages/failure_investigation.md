@@ -17,12 +17,12 @@ With over 75 years working closely with the metals sector we have developed an e
 
 | Task | Basic | Standard | Prime 
 | --- | --- | --- | --- 
-| Certified quality assurance | ✓ | ✓ | ✓ 
+| [Certified quality assurance](https://www.mpiuk.com/lrqa-certificate.htm) | ✓ | ✓ | ✓ 
 | Site visit and evaluation | | | ✓ |
 | Visual and macroscopic investigation | ✓ | ✓ | ✓ |
 | Microscopic investigation | ✓ | ✓ | ✓ |
 | Electron microscopy | | ✓ | ✓ |
-| Chemical analysis | | ✓ | ✓ |
+| [Chemical analysis](https://www.mpiuk.com/laboratories-chemical-analysis.htm) | | ✓ | ✓ |
 | Optical emission spectroscopy | | ✓ | ✓ |
 | Investigation analysis | | | ✓ |
 | Comprehensive report | | | ✓ |
