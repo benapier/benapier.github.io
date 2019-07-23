@@ -2,9 +2,9 @@
 layout: default
 ---
 
-## Bio
+## Summary
 
-Student currently studying MSci Mathematics and Computer Science at Durham Universiy under the Millman Scholarship with the Materials Processing Institute.
+Undergraduate Researcher with a demonstrated history of working in the research industry. Currently studying MSci Mathematics and Computer Science at Durham University under the Millman Scholarship with the Materials Processing Institute. 
 
 [Coding activity](https://ben.napier.xyz/pages/coding_activity/)
 
