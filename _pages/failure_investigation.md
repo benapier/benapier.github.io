@@ -15,6 +15,8 @@ With over 75 years working closely with the metals sector we have developed an e
 
 ## Methodology 
 
+We offer three services for failure investigation: basic, standard, and prime (with the metholodogy detailed below for each one). 
+
 | Task | Basic | Standard | Prime 
 | --- | --- | --- | --- 
 | [Certified quality assurance](https://www.mpiuk.com/lrqa-certificate.htm) | ✓ | ✓ | ✓ 
