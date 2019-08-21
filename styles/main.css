@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(43, 43, 43);
+    color: #A9B7C6;
+}
+
+header {
+    font-family: Monaco, consolas, monospace;
+    margin: auto;
+    font-size: 80px;
+}
+
+main {
+    width: 600px;
+    margin: auto;
+}
+
+footer {
+
+}
+
+nav {
+    width: 800px;
+    margin: auto;
+    display: inline;
+}
+
+.nav-bar-item {
+    float: right;
+}
