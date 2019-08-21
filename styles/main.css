@@ -6,27 +6,32 @@ body {
     color: #A9B7C6;
 }
 
-header {
+.header {
     font-family: Monaco, consolas, monospace;
     margin: auto;
-    font-size: 80px;
+    width: 600px;
+    font-size: 75px;
+    margin-bottom: 50px;
 }
 
-main {
+.main {
     width: 600px;
     margin: auto;
 }
 
-footer {
+.footer {
 
 }
 
-nav {
-    width: 800px;
+.nav {
+    height: 100px;
+    width: 1000px;
     margin: auto;
-    display: inline;
+    display: block;
 }
+
 
 .nav-bar-item {
     float: right;
+    padding: 30px;
 }
