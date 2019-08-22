@@ -4,14 +4,29 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: rgb(43, 43, 43);
     color: #A9B7C6;
+    width: 100%;
 }
 
 .header {
-    font-family: Monaco, consolas, monospace;
-    margin: auto;
-    width: 600px;
+    font-family: Monaco, Consolas, monospace;
+    margin: 100px 15%;
+    overflow: hidden;
+    user-select: none;
+}
+
+.header-title {
     font-size: 75px;
-    margin-bottom: 50px;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+.header-subtitle {
+    float: right;
+    font-size: 30px;
+    display: block;
+    overflow: hidden;
+    color: #619647;
 }
 
 .main {
@@ -24,14 +39,70 @@ body {
 }
 
 .nav {
+    font-family: Monaco, Consolas, monospace;
     height: 100px;
-    width: 1000px;
-    margin: auto;
+    margin: 0 15%;
     display: block;
+    user-select: none;
 }
 
 
 .nav-bar-item {
     float: right;
     padding: 30px;
+    color: #CC7832;
+}
+
+/* Blinking cursor for title. */
+
+.blinking-cursor {
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+}
+
+@keyframes blink {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: inherit;
+    }
+}
+
+@-moz-keyframes blink {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: inherit;
+    }
+}
+
+@-webkit-keyframes blink {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: inherit;
+    }
+}
+
+@-ms-keyframes blink {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: inherit;
+    }
+}
+
+@-o-keyframes blink {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: inherit;
+    }
 }
