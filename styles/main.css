@@ -13,21 +13,37 @@ h1 {
     color: #CC7832;
 }
 
+
 .header {
+    font-family: Monaco, Consolas, monospace;
+    margin: 25px 15%;
+    overflow: hidden;
+    user-select: none;
+}
+
+.header-title {
+    font-size: 60px;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+
+.header-big {
     font-family: Monaco, Consolas, monospace;
     margin: 100px 15%;
     overflow: hidden;
     user-select: none;
 }
 
-.header-title {
+.header-big-title {
     font-size: 75px;
     float: left;
     display: block;
     overflow: hidden;
 }
 
-.header-subtitle {
+.header-big-subtitle {
     float: right;
     font-size: 30px;
     display: block;
@@ -37,7 +53,28 @@ h1 {
 
 .main {
     width: 600px;
-    margin: auto;
+    margin: 100px auto;
+}
+
+.article {
+
+}
+
+.article-header {
+    display: inline;
+    vertical-align: center;
+    overflow: hidden;
+}
+
+.article-header img {
+    position: relative;
+    top: 2px;
+    left: 10px;
+    height: 20px;
+}
+
+.article-main {
+
 }
 
 .footer {
