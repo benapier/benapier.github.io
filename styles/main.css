@@ -13,6 +13,10 @@ h1 {
     color: #CC7832;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
 .header {
     font-family: Monaco, Consolas, monospace;
@@ -34,6 +38,7 @@ h1 {
     margin: 100px 15%;
     overflow: hidden;
     user-select: none;
+    height: 60vh;
 }
 
 .header-big-title {
