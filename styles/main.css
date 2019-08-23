@@ -38,7 +38,6 @@ a {
     margin: 100px 15%;
     overflow: hidden;
     user-select: none;
-    height: 60vh;
 }
 
 .header-big-title {
@@ -90,17 +89,22 @@ a {
 
 .nav {
     font-family: Monaco, Consolas, monospace;
-    height: 100px;
+    text-align: center;
     margin: 0 15%;
-    display: block;
     user-select: none;
+}
+
+.nav-bar {
+    vertical-align: center;
+    height: 50px;
 }
 
 
 .nav-bar-item {
-    float: right;
-    padding: 30px;
+    display:inline-block;
+    padding: 15px 30px;
     color: #CC7832;
+    margin: auto;
 }
 
 /* Blinking cursor for title. */
@@ -154,5 +158,42 @@ a {
     }
     50% {
         color: inherit;
+    }
+}
+
+/* Small screens */
+@media only screen {
+    .main-cards {
+        column-count: 1;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 200px calc(100% - 200px);
+        grid-template-rows: 50px 1fr 50px;
+        grid-template-areas: 'sidenav header' 'sidenav main' 'sidenav footer';
+        height: 100vh;
+    }
+    .sidenav {
+        position: relative;
+        transform: translateX(0);
+    }
+
+}
+
+@media (min-width: 800px) {
+    .header-big-title {
+        font-size: 50px;
+    }
+    .header-big-subtitle {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .header-big-title {
+        font-size: 75px;
+    }
+    .header-big-subtitle {
+        font-size: 30px;
     }
 }
