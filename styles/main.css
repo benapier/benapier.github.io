@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background-color: rgb(43, 43, 43);
     color: #A9B7C6;
     min-width: 280px;
@@ -15,7 +15,7 @@ body {
 }
 
 h1 {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #CC7832;
 }
 
@@ -96,15 +96,15 @@ a {
 .section {
     margin-bottom: 5em;
 }
-
+/**/
 .section-header {
     display: inline;
     vertical-align: center;
     overflow: hidden;
-    color: #CC7832;
+    color: rgb(115,137,166);
     font-size: 22px;
-    font-weight: 700;
 }
+
 
 .article {
     margin-bottom: 5em;
