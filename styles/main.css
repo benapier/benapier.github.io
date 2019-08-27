@@ -116,9 +116,9 @@ a {
     margin: 1em 0;
 }
 
-.article-header img {
+.article-header-icon {
     position: relative;
-    top: 2px;
+    top: 4px;
     left: 10px;
     height: 20px;
 }
