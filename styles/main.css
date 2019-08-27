@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Nunito', sans-serif;
     background-color: rgb(43, 43, 43);
     color: #A9B7C6;
-    min-width: 800px;
+    min-width: 492px;
+    font-size: 18px;
+    margin: 0;
 }
 
 h1 {
@@ -19,10 +25,10 @@ a {
 }
 
 .header {
-    font-family: Monaco, Consolas, monospace;
-    margin: 25px 15%;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
-    user-select: none;
+    background-color: rgb(60, 63, 65);
 }
 
 .header-title {
@@ -35,39 +41,70 @@ a {
 
 .header-big {
     font-family: Monaco, Consolas, monospace;
-    margin: 100px 15%;
+    margin: 25vh 15%;
+    height: 40vh;
+    min-height: 520px;
     overflow: hidden;
     user-select: none;
 }
 
 .header-big-title {
-    font-size: 75px;
+    font-size: 45px;
     float: left;
     display: block;
     overflow: hidden;
+    margin-bottom: 1em;
 }
 
 .header-big-subtitle {
     float: right;
-    font-size: 30px;
+    font-size: 15px;
     display: block;
     overflow: hidden;
     color: #619647;
 }
 
+.down-button {
+    position: absolute;
+    bottom: 15%;
+    text-align: center;
+    left: 45%;
+    right: 45%;
+}
+
+.down-button i {
+    font-size: 60px;
+}
+
 .main {
-    width: 600px;
-    margin: 100px auto;
+    width: 430px;
+    padding: 100px 0;
+    margin: 0 auto;
+    min-height: 100vh;
 }
 
-.article {
-
+.section {
+    margin-bottom: 5em;
 }
 
-.article-header {
+.section-header {
     display: inline;
     vertical-align: center;
     overflow: hidden;
+    color: #CC7832;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.article {
+    margin-bottom: 5em;
+}
+
+.article-header {
+    font-weight: 600;
+    vertical-align: center;
+    overflow: hidden;
+    margin: 1em 0;
 }
 
 .article-header img {
@@ -85,26 +122,6 @@ a {
     position: fixed;
     bottom: 0;
     left: 0;
-}
-
-.nav {
-    font-family: Monaco, Consolas, monospace;
-    text-align: center;
-    margin: 0 15%;
-    user-select: none;
-}
-
-.nav-bar {
-    vertical-align: center;
-    height: 50px;
-}
-
-
-.nav-bar-item {
-    display:inline-block;
-    padding: 15px 30px;
-    color: #CC7832;
-    margin: auto;
 }
 
 /* Blinking cursor for title. */
@@ -161,39 +178,47 @@ a {
     }
 }
 
-/* Small screens */
-@media only screen {
-    .main-cards {
-        column-count: 1;
+@media (min-width: 500px) {
+    .main {
+        width: 86vw;
     }
-    .grid {
-        display: grid;
-        grid-template-columns: 200px calc(100% - 200px);
-        grid-template-rows: 50px 1fr 50px;
-        grid-template-areas: 'sidenav header' 'sidenav main' 'sidenav footer';
-        height: 100vh;
+    .header-big {
+        width: 325px;
+        margin-left: auto;
+        margin-right: auto;
     }
-    .sidenav {
-        position: relative;
-        transform: translateX(0);
-    }
-
-}
-
-@media (min-width: 800px) {
     .header-big-title {
-        font-size: 50px;
+        display: inline-block;
+        font-size: 45px;
+        float: left;
     }
     .header-big-subtitle {
-        font-size: 20px;
+        display: inline-block;
+        font-size: 15px;
+        float: left;
     }
 }
 
-@media (min-width: 1600px) {
-    .header-big-title {
-        font-size: 75px;
-    }
-    .header-big-subtitle {
-        font-size: 30px;
+@media (min-width: 700px) {
+    .main {
+        width: 600px;
     }
 }
+
+
+@media (min-width: 1050px) {
+    .header-big {
+        margin: 25vh 15%;
+        width: inherit;
+    }
+    .header-big-title {
+        font-size: 4.5vw;
+        float: left;
+    }
+    .header-big-subtitle {
+        font-size: 1.5vw;
+        float: right;
+    }
+}
+
+

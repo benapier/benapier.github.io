@@ -6,56 +6,67 @@
     </title>
 
     <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-<nav class="nav">
-    <div class="nav-bar">
-        <div class="nav-bar-item">
-            <a style="cursor:pointer;">
-                About
-            </a>
-        </div>
-        <div class="nav-bar-item">
-            <a href="./projects/">
-                Projects
-            </a>
-        </div>
-        <div class="nav-bar-item">
-            <a style="cursor:pointer;">
-                Contact
-            </a>
-        </div>
-        <div class="nav-bar-item">
-            <a>
-                Home
-            </a>
-        </div>
-    </div>
-</nav>
 
-<header class="header-big">
-    <div class="header-big-title">
-        > ben.napier<span class="blinking-cursor">|</span>
-    </div>
-    <div class="header-big-subtitle">
-        /** <br>
-        &nbsp* Developer and undergraduate <br>
-        &nbsp* researcher with a demonstrated<br>
-        &nbsp* history in research and <br>
-        &nbsp* development. <br>
-        &nbsp*/
+<header class="header">
+    <div class="header-big">
+        <div class="header-big-title">
+            > ben.napier<span class="blinking-cursor">|</span>
+        </div>
+        <div class="header-big-subtitle">
+            /** <br>
+            &nbsp* Developer and undergraduate <br>
+            &nbsp* researcher with a demonstrated<br>
+            &nbsp* history in research and <br>
+            &nbsp* development. <br>
+            &nbsp*/
+        </div>
+        <div class="down-button">
+            <a href="#main">
+                <i class="material-icons">arrow_downward</i>
+            </a>
+        </div>
     </div>
 </header>
 
-<main class="main">
-    <article class="article">
-        <h1>
-            Hello
-        </h1>
-        <p>
-            Wait what
-        </p>
-    </article>
+<main class="main" id="main">
+    <section class="section" id="about">
+        <div class="section-header">
+            About
+        </div>
+        <div class="section-main">
+            <p>
+                Undergraduate Researcher with a demonstrated history of working in the research industry. Currently
+                studying
+                MSci Mathematics and Computer Science at Durham University under the Millman Scholarship with the
+                Materials
+                Processing Institute.
+            </p>
+        </div>
+    </section>
+    <section class="section" id="projects">
+        <div class="section-header">
+            Projects
+        </div>
+        <div class="section-main">
+            <div class="article">
+                <div class="article-header">
+                    cmatrix
+                    <img alt="Github" src="images/github-mark.png">
+                </div>
+                <div class="article-main">
+                    <p>
+                        A simple matrix library in C++ which takes advantage of operator overloading so that matrices
+                        can be
+                        treated
+                        like any other common data types (double, integer, etc.).
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 </body>
 </html>
