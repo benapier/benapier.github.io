@@ -9,7 +9,7 @@ body {
     font-family: 'Nunito', sans-serif;
     background-color: rgb(43, 43, 43);
     color: #A9B7C6;
-    min-width: 492px;
+    min-width: 483px;
     font-size: 18px;
     margin: 0;
 }
@@ -22,6 +22,15 @@ h1 {
 a {
     text-decoration: none;
     color: inherit;
+    white-space: nowrap;
+}
+
+.link {
+    display: inline-block;
+    position: relative;
+    background: url(../images/wavy.png) bottom repeat-x;
+    image-rendering: pixelated;
+    white-space: nowrap;
 }
 
 .header {
@@ -182,16 +191,19 @@ a {
     .main {
         width: 86vw;
     }
+
     .header-big {
         width: 325px;
         margin-left: auto;
         margin-right: auto;
     }
+
     .header-big-title {
         display: inline-block;
         font-size: 45px;
         float: left;
     }
+
     .header-big-subtitle {
         display: inline-block;
         font-size: 15px;
@@ -205,16 +217,17 @@ a {
     }
 }
 
-
 @media (min-width: 1050px) {
     .header-big {
         margin: 25vh 15%;
         width: inherit;
     }
+
     .header-big-title {
         font-size: 4.5vw;
         float: left;
     }
+
     .header-big-subtitle {
         font-size: 1.5vw;
         float: right;
