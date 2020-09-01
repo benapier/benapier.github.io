@@ -41,13 +41,6 @@ a {
     background-color: rgb(60, 63, 65);
 }
 
-.header-title {
-    font-size: 60px;
-    float: left;
-    display: block;
-    overflow: hidden;
-}
-
 
 .header-big {
     font-family: Monaco, Consolas, monospace;
@@ -119,7 +112,7 @@ a {
     display: inline;
     vertical-align: center;
     overflow: hidden;
-    color: rgb(115,137,166);
+    color: rgb(115, 137, 166);
     font-size: 22px;
 }
 
@@ -206,36 +199,6 @@ a {
     }
 }
 
-/*@media (min-width: 300px) {*/
-/*    .body {*/
-/*        font-size: 14px;*/
-/*    }*/
-/*    .main {*/
-/*        width: 80vw;*/
-/*        margin-left: 8vw;*/
-/*    }*/
-/*    .section-header {*/
-/*        font-size: 16px;*/
-/*    }*/
-/*    .header-big {*/
-/*        margin-left: auto;*/
-/*        margin-right: auto;*/
-/*    }*/
-
-/*    .header-big-title {*/
-/*        display: inline-block;*/
-/*        font-size: 30px;*/
-/*    }*/
-
-/*    .header-big-subtitle {*/
-/*        display: inline-block;*/
-/*        font-size: 10px;*/
-/*        !*float: left;*!*/
-/*    }*/
-/*    .down-button {*/
-/*        display: none;*/
-/*    }*/
-/*}*/
 
 @media (min-width: 300px) {
     .body {
@@ -245,6 +208,7 @@ a {
     .section-header {
         font-size: 22px;
     }
+
     .main {
         width: 86vw;
         padding: 20px 0;
@@ -269,13 +233,11 @@ a {
     .header-big-title {
         display: inline-block;
         font-size: 12vw;
-        margin: 10px 0;
+        margin: 10px 0 40px 0;
     }
 
     .header-big-subtitle {
         font-size: 3.5vw;
-        height: 40vh;
-        max-height: 25vw;
         display: flex;
         justify-content: center;
         text-align: left;
@@ -288,6 +250,7 @@ a {
         text-align: center;
         padding: 12vh 0 47vh 0;
     }
+
     .down-button {
         display: none;
         height: 0;
@@ -326,7 +289,9 @@ a {
     .header-big {
         padding: 35vh 15% 15vh 15%;
         /*margin: 30vh 15%;*/
+        height: 40vh;
     }
+
 
     .header-big-title {
         font-size: 4.6vw;
