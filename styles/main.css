@@ -26,7 +26,7 @@
     overflow: hidden;
     text-align: center;
     display: inline-block;
-    font-size: 14vw;
+    font-size: 13vw;
     margin: 10px 0 5vh 0;
 }
 
@@ -139,7 +139,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-color: rgb(43, 43, 43);
     color: #A9B7C6;
-    min-width: 320px;
+    min-width: 300px;
     font-size: 18px;
     margin: 0;
 }
