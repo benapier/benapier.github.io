@@ -1,18 +1,8 @@
+/* Fonts */
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
-html {
-    scroll-behavior: smooth;
-}
 
-body {
-    font-family: 'Open Sans', sans-serif;
-    background-color: rgb(43, 43, 43);
-    color: #A9B7C6;
-    min-width: 280px;
-    font-size: 18px;
-    margin: 0;
-}
 
 h1 {
     font-family: 'Open Sans', sans-serif;
@@ -89,116 +79,6 @@ a {
     min-height: 100vh;
 }
 
-.social-media-buttons {
-    text-align: center;
-    padding: 20px;
-}
-
-.social-media-buttons a {
-    padding: 10px 30px;
-    font-size: 2em;
-    vertical-align: middle;
-}
-
-.social-media-buttons a:hover {
-    color: white;
-}
-
-.section {
-    margin: 2em 0;
-}
-
-.section-header {
-    display: inline;
-    vertical-align: center;
-    overflow: hidden;
-    color: rgb(115, 137, 166);
-    font-size: 22px;
-}
-
-
-.article {
-    margin-bottom: 5em;
-}
-
-.article-header {
-    font-weight: 600;
-    vertical-align: center;
-    overflow: hidden;
-    margin: 1em 0;
-}
-
-.article-header-icon {
-    position: relative;
-    top: 4px;
-    left: 10px;
-    height: 20px;
-}
-
-.article-main {
-
-}
-
-.footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-}
-
-/* Blinking cursor for title. */
-
-.blinking-cursor {
-    -webkit-animation: 1s blink step-end infinite;
-    -moz-animation: 1s blink step-end infinite;
-    -o-animation: 1s blink step-end infinite;
-    animation: 1s blink step-end infinite;
-}
-
-@keyframes blink {
-    from, to {
-        color: transparent;
-    }
-    50% {
-        color: inherit;
-    }
-}
-
-@-moz-keyframes blink {
-    from, to {
-        color: transparent;
-    }
-    50% {
-        color: inherit;
-    }
-}
-
-@-webkit-keyframes blink {
-    from, to {
-        color: transparent;
-    }
-    50% {
-        color: inherit;
-    }
-}
-
-@-ms-keyframes blink {
-    from, to {
-        color: transparent;
-    }
-    50% {
-        color: inherit;
-    }
-}
-
-@-o-keyframes blink {
-    from, to {
-        color: transparent;
-    }
-    50% {
-        color: inherit;
-    }
-}
-
 
 @media (min-width: 300px) {
     .body {
@@ -233,7 +113,7 @@ a {
     .header-big-title {
         display: inline-block;
         font-size: 12vw;
-        margin: 10px 0 40px 0;
+        margin: 10px 0 5vh 0;
     }
 
     .header-big-subtitle {
@@ -248,7 +128,7 @@ a {
 @media (min-aspect-ratio: 2/1.1) {
     .header-big {
         text-align: center;
-        padding: 12vh 0 47vh 0;
+        padding: 15vh 0 25vh 0;
     }
 
     .down-button {
@@ -310,4 +190,112 @@ a {
     }
 }
 
+/* Non-responsive styling */
 
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(43, 43, 43);
+    color: #A9B7C6;
+    min-width: 280px;
+    font-size: 18px;
+    margin: 0;
+}
+
+.social-media-buttons {
+    text-align: center;
+    padding: 20px;
+}
+.social-media-buttons a {
+    padding: 10px 30px;
+    font-size: 2em;
+    vertical-align: middle;
+}
+.social-media-buttons a:hover {
+    color: white;
+}
+
+.section {
+    margin: 2em 0;
+}
+.section-header {
+    display: inline;
+    vertical-align: center;
+    overflow: hidden;
+    color: rgb(115, 137, 166);
+    font-size: 22px;
+}
+.article {
+    margin-bottom: 5em;
+}
+.article-header {
+    font-weight: 600;
+    vertical-align: center;
+    overflow: hidden;
+    margin: 1em 0;
+}
+.article-header-icon {
+    position: relative;
+    top: 4px;
+    left: 10px;
+    height: 20px;
+}
+.article-main {
+
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+/* Blinking cursor for title. */
+.blinking-cursor {
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+}
+@keyframes blink {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: inherit;
+    }
+}
+@-moz-keyframes blink {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: inherit;
+    }
+}
+@-webkit-keyframes blink {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: inherit;
+    }
+}
+@-ms-keyframes blink {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: inherit;
+    }
+}
+@-o-keyframes blink {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: inherit;
+    }
+}
