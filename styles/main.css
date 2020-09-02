@@ -4,26 +4,6 @@
 
 
 
-h1 {
-    font-family: 'Open Sans', sans-serif;
-    color: #CC7832;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-    white-space: nowrap;
-}
-
-.link {
-    display: inline-block;
-    position: relative;
-    background: url(../images/wavy.png) bottom repeat-x;
-    image-rendering: pixelated;
-    white-space: nowrap;
-    font-size: inherit;
-}
-
 .header {
     margin: 0;
     padding: 0;
@@ -32,7 +12,7 @@ a {
 }
 
 
-.header-big {
+.header-main {
     font-family: Monaco, Consolas, monospace;
     /*margin: 30vh 15%;*/
     margin: 0;
@@ -43,7 +23,7 @@ a {
     user-select: none;
 }
 
-.header-big-title {
+.header-main-title {
     font-size: 45px;
     display: block;
     overflow: hidden;
@@ -51,7 +31,7 @@ a {
     text-align: center;
 }
 
-.header-big-subtitle {
+.header-main-description {
     /*float: right;*/
     font-size: 15px;
     display: block;
@@ -59,7 +39,7 @@ a {
     color: #619647;
 }
 
-.down-button {
+.header-down-button {
     bottom: 15%;
     left: 45%;
     right: 45%;
@@ -67,7 +47,7 @@ a {
     text-align: center;
 }
 
-.down-button i {
+.header-down-button i {
     font-size: 4vw;
 }
 
@@ -78,6 +58,31 @@ a {
     margin: 0 auto;
     min-height: 100vh;
 }
+
+
+@media (min-aspect-ratio: 2/1.1) {
+    .header-main {
+        text-align: center;
+        padding: 15vh 0 25vh 0;
+    }
+
+    .header-down-button {
+        display: none;
+        height: 0;
+    }
+}
+
+@media (max-height: 299px) {
+    .header-down-button {
+        display: none;
+        height: 0;
+    }
+
+    .header-main-description {
+        display: none;
+    }
+}
+
 
 
 @media (min-width: 300px) {
@@ -95,7 +100,7 @@ a {
         margin: 0 auto;
     }
 
-    .down-button {
+    .header-down-button {
         height: 10vh;
         display: flex;
         align-items: center;
@@ -103,20 +108,20 @@ a {
         text-align: center;
     }
 
-    .header-big {
+    .header-main {
         text-align: center;
         padding: 10vh 0 20vh 0;
         height: 60vh;
         max-height: 60vh;
     }
 
-    .header-big-title {
+    .header-main-title {
         display: inline-block;
         font-size: 12vw;
         margin: 10px 0 5vh 0;
     }
 
-    .header-big-subtitle {
+    .header-main-description {
         font-size: 3.5vw;
         display: flex;
         justify-content: center;
@@ -125,65 +130,36 @@ a {
     }
 }
 
-@media (min-aspect-ratio: 2/1.1) {
-    .header-big {
-        text-align: center;
-        padding: 15vh 0 25vh 0;
-    }
-
-    .down-button {
-        display: none;
-        height: 0;
-    }
-}
-
-@media (max-height: 299px) {
-    .down-button {
-        display: none;
-        height: 0;
-    }
-
-    .header-big-subtitle {
-        display: none;
-    }
-}
-
-
 @media (min-width: 700px) {
     .main {
         width: 600px;
     }
 
 
-    .down-button i {
+    .header-down-button i {
         font-size: 45px;
     }
-
-    /*.header-big {*/
-    /*    text-align: center;*/
-    /*    padding: 10vh 0 40vh 0;*/
-    /*}*/
 }
 
 @media (min-width: 1050px) {
-    .header-big {
-        padding: 35vh 15vw 15vh 15vw;
+    .header-main {
+        padding: 35vh 12vw 15vh 12vw;
         height: 40vh;
     }
 
 
-    .header-big-title {
+    .header-main-title {
         font-size: 4.6vw;
         float: left;
     }
 
-    .header-big-subtitle {
+    .header-main-description {
         display: block;
         font-size: 1.6vw;
         float: right;
     }
 
-    .down-button {
+    .header-down-button {
         display: block;
         height: 10vh;
     }
@@ -201,6 +177,23 @@ body {
     min-width: 280px;
     font-size: 18px;
     margin: 0;
+}
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: #CC7832;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    white-space: nowrap;
+}
+.link {
+    display: inline-block;
+    position: relative;
+    background: url(../images/wavy.png) bottom repeat-x;
+    image-rendering: pixelated;
+    white-space: nowrap;
+    font-size: inherit;
 }
 
 .social-media-buttons {
