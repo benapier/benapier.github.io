@@ -1,25 +1,23 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
 
 .header {
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: rgb(60, 63, 65);
+    user-select: none;
 }
 
-
 .header-main {
-    font-family: Monaco, Consolas, monospace;
+    font-family: 'Inconsolata', monospace;
     margin: 0;
     min-height: 205px;
     overflow: hidden;
-    user-select: none;
     text-align: center;
-    padding: 10vh 0 20vh 0;
+    padding: 10vh 0 30vh 0;
     height: 60vh;
     max-height: 60vh;
 }
@@ -28,7 +26,7 @@
     overflow: hidden;
     text-align: center;
     display: inline-block;
-    font-size: 12vw;
+    font-size: 14vw;
     margin: 10px 0 5vh 0;
 }
 
@@ -36,7 +34,7 @@
     /*float: right;*/
     overflow: hidden;
     color: #619647;
-    font-size: 3.5vw;
+    font-size: 4vw;
     display: flex;
     justify-content: center;
     text-align: left;
@@ -65,23 +63,19 @@
 }
 
 
-@media (min-aspect-ratio: 2/1.1) {
-    .header-main {
-        text-align: center;
-        padding: 15vh 0 25vh 0;
-    }
+/*@media (min-aspect-ratio: 2/1.1) {*/
+/*    .header-main {*/
+/*        text-align: center;*/
+/*        padding: 15vh 0 25vh 0;*/
+/*    }*/
 
-    .header-down-button {
-        display: none;
-        height: 0;
-    }
-}
+/*    .header-down-button {*/
+/*        display: none;*/
+/*        height: 0;*/
+/*    }*/
+/*}*/
 /* Ultra-compact */
 @media (max-height: 450px) {
-    .header-down-button {
-        display: none;
-        height: 0;
-    }
     .header-main {
         padding: 10vh 0 30vh 0;
     }
@@ -94,19 +88,19 @@
 /* Desktop mode */
 @media (min-width: 1050px) {
     .header-main {
-        padding: 35vh 12vw 15vh 12vw;
+        padding: 35vh 11vw 25vh 11vw;
         height: 40vh;
     }
 
 
     .header-main-title {
-        font-size: 4.6vw;
+        font-size: 5.5vw;
         float: left;
     }
 
     .header-main-description {
         display: block;
-        font-size: 1.6vw;
+        font-size: 2vw;
         float: right;
     }
 
@@ -127,7 +121,7 @@
     }
 }
 
-/* Stop things going crazy on ultrawide */
+/* Ultra-wide */
 @media (min-width: 1920px) {
     .header-down-button i {
         font-size: 58px;
@@ -138,8 +132,10 @@
 
 html {
     scroll-behavior: smooth;
+    height: 100%;
 }
 body {
+    height: 100%;
     font-family: 'Open Sans', sans-serif;
     background-color: rgb(43, 43, 43);
     color: #A9B7C6;
