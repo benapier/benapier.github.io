@@ -14,46 +14,51 @@
 
 .header-main {
     font-family: Monaco, Consolas, monospace;
-    /*margin: 30vh 15%;*/
     margin: 0;
-    padding: 30vh 10%;
-    height: 40vh;
     min-height: 205px;
     overflow: hidden;
     user-select: none;
+    text-align: center;
+    padding: 10vh 0 20vh 0;
+    height: 60vh;
+    max-height: 60vh;
 }
 
 .header-main-title {
-    font-size: 45px;
-    display: block;
     overflow: hidden;
-    margin-bottom: 1em;
     text-align: center;
+    display: inline-block;
+    font-size: 12vw;
+    margin: 10px 0 5vh 0;
 }
 
 .header-main-description {
     /*float: right;*/
-    font-size: 15px;
-    display: block;
     overflow: hidden;
     color: #619647;
+    font-size: 3.5vw;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    align-items: flex-end;
 }
 
 .header-down-button {
-    bottom: 15%;
-    left: 45%;
-    right: 45%;
     height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
 }
 
 .header-down-button i {
-    font-size: 4vw;
+    font-size: 3vw;
 }
 
 
 .main {
-    width: 430px;
+    width: 86vw;
+    max-width: 600px;
     padding: 20px 0;
     margin: 0 auto;
     min-height: 100vh;
@@ -71,76 +76,22 @@
         height: 0;
     }
 }
-
-@media (max-height: 299px) {
+/* Ultra-compact */
+@media (max-height: 450px) {
     .header-down-button {
         display: none;
         height: 0;
     }
-
+    .header-main {
+        padding: 10vh 0 30vh 0;
+    }
     .header-main-description {
         display: none;
     }
 }
 
 
-
-@media (min-width: 300px) {
-    .body {
-        font-size: 18px;
-    }
-
-    .section-header {
-        font-size: 22px;
-    }
-
-    .main {
-        width: 86vw;
-        padding: 20px 0;
-        margin: 0 auto;
-    }
-
-    .header-down-button {
-        height: 10vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .header-main {
-        text-align: center;
-        padding: 10vh 0 20vh 0;
-        height: 60vh;
-        max-height: 60vh;
-    }
-
-    .header-main-title {
-        display: inline-block;
-        font-size: 12vw;
-        margin: 10px 0 5vh 0;
-    }
-
-    .header-main-description {
-        font-size: 3.5vw;
-        display: flex;
-        justify-content: center;
-        text-align: left;
-        align-items: flex-end;
-    }
-}
-
-@media (min-width: 700px) {
-    .main {
-        width: 600px;
-    }
-
-
-    .header-down-button i {
-        font-size: 45px;
-    }
-}
-
+/* Desktop mode */
 @media (min-width: 1050px) {
     .header-main {
         padding: 35vh 12vw 15vh 12vw;
@@ -163,6 +114,24 @@
         display: block;
         height: 10vh;
     }
+    @media (max-height: 510px) {
+        .header-main {
+            padding: 35vh 12vw 25vh 12vw;
+            height: 40vh;
+        }
+
+        .header-down-button {
+            display: none;
+            height: 0;
+        }
+    }
+}
+
+/* Stop things going crazy on ultrawide */
+@media (min-width: 1920px) {
+    .header-down-button i {
+        font-size: 58px;
+    }
 }
 
 /* Non-responsive styling */
@@ -174,7 +143,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-color: rgb(43, 43, 43);
     color: #A9B7C6;
-    min-width: 280px;
+    min-width: 320px;
     font-size: 18px;
     margin: 0;
 }
